@@ -84,7 +84,6 @@ footer {
     color: rgb(253, 63, 29);
 }
 
-
 /*---------------------- arrow ----------------------*/
 .arrow {
     position: absolute;
@@ -116,6 +115,6 @@ footer {
 }
 .item-box {
     height: 100%;
-    width: 200px;
+    width: calc(100% / 3);
     border: 1px solid red;
 }
