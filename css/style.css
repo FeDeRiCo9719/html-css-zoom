@@ -80,7 +80,7 @@ footer {
 .name-user p {
     color: white;
 }
-.fas {
+.name-user i {
     color: rgb(253, 63, 29);
 }
 
@@ -89,21 +89,32 @@ footer {
     position: absolute;
     left: 10px;
 
-    height: 80px;
-    width: 50px;
-    line-height: 80px;
-    border: 1px solid;
-    background-image: linear-gradient(rgb(48, 48, 48), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 90px;
+    width: 60px;
+    font-size: 12px;
     border-radius: 3px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    border: 1px solid;
     text-align: center;
+    background-image: linear-gradient(rgb(48, 48, 48), rgb(0, 0, 0));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527); 
 }
 .arrow i {
-    line-height: 80px;
-    font-size: 30px;
+    /* border: 1px solid red; */
+    font-size: 60px;
     color: rgb(64, 169, 255);
 }
+.arrow i:hover {
+    cursor: pointer;
+}
+.arrow i:active {
+    color: rgb(44, 113, 168);
+}
 .arrow p {
+    /* border: 1px solid red; */
     color: grey;
 }
 
@@ -121,24 +132,33 @@ footer {
     align-items: center;
 
     height: 100%;
-    /* border: 1px solid rgba(255, 0, 0, 0.342); */
+}
+.item-C {
+    justify-content: center;
 }
 
 .item-nav {
     margin: 0px 20px;
     text-align: center;
-    /* border: 1px solid red; */
-}
-.item-nav i {
-    font-size: 20px;
-    color: rgb(175, 175, 175);
-}
-.share-screen i, .share-screen p {
-    color: rgb(47, 199, 47);
 }
 
-.item-C {
-    justify-content: center;
+.item-nav i, .share-screen i {
+    font-size: 20px;
+}
+.item-nav:hover, .share-screen:hover {
+    cursor: pointer;
+}
+.item-nav:active {
+    color: grey;
+}
+
+.share-screen {
+    margin: 0px 20px;
+    text-align: center;
+    color: rgb(47, 199, 47);
+}
+.share-screen:active {
+    color: rgb(21, 165, 83);
 }
 
 /*---------------------- button ----------------------*/
@@ -147,12 +167,12 @@ footer {
     padding: 5px 20px;
     border-radius: 8px;
     color: white;
-    background-color: rgb(206, 21, 21);
+    background-color: rgb(230, 19, 19);
     border: none;
 }
 .item-R button:hover {
-    background-color: rgb(255, 23, 23);
+    cursor: pointer;
 }
 .item-R button:active {
-    background-color: rgb(148, 40, 40);
+    background-color: rgb(180, 3, 3);
 }
