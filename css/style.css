@@ -90,11 +90,11 @@ footer {
     left: 10px;
 
     height: 80px;
-    width: 60px;
+    width: 50px;
     line-height: 80px;
     border: 1px solid;
     background-image: linear-gradient(rgb(48, 48, 48), rgb(0, 0, 0));
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     text-align: center;
 }
@@ -109,12 +109,50 @@ footer {
 
 /*---------------------- FOOTER ----------------------*/
 .box {
-    height: 100%;
     display: flex;
     justify-content: space-between;
-}
-.item-box {
+
     height: 100%;
-    width: calc(100% / 3);
-    border: 1px solid red;
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+}
+.item-L, .item-C, .item-R {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    /* border: 1px solid rgba(255, 0, 0, 0.342); */
+}
+
+.item-nav {
+    margin: 0px 20px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.item-nav i {
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+}
+.share-screen i, .share-screen p {
+    color: rgb(47, 199, 47);
+}
+
+.item-C {
+    justify-content: center;
+}
+
+/*---------------------- button ----------------------*/
+.item-R button {
+    margin: 0px 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(206, 21, 21);
+    border: none;
+}
+.item-R button:hover {
+    background-color: rgb(255, 23, 23);
+}
+.item-R button:active {
+    background-color: rgb(148, 40, 40);
 }
