@@ -21,7 +21,8 @@ main {
     justify-content: center;
     align-items: center;
     height: calc(100vh - 100px);
-    background-color: rgb(70, 75, 75);
+    /* background-color: rgb(224, 94, 61); */
+    background-image: linear-gradient(rgb(95, 194, 189), rgb(54, 99, 117));
 }
 
 footer {
@@ -58,7 +59,8 @@ footer {
     /* height: calc(20% - 6px); */
     width: calc(20% - 6px);
     margin: 3px;
-    border-radius: 8px;   
+    border-radius: 8px;
+    border: 2px solid white;   
 }
 .name-user {
     display: flex;
@@ -105,13 +107,13 @@ footer {
 .arrow i {
     /* border: 1px solid red; */
     font-size: 60px;
-    color: rgb(64, 169, 255);
+    color: rgb(175, 175, 175);
 }
 .arrow i:hover {
     cursor: pointer;
 }
 .arrow i:active {
-    color: rgb(44, 113, 168);
+    color: grey;
 }
 .arrow p {
     /* border: 1px solid red; */
